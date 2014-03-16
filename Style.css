@@ -1,0 +1,76 @@
+﻿body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #000000; 
+    background-image: url('images/linen.jpg');
+}
+
+table
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    border-spacing: 0;
+    padding-bottom: 2%;
+}
+
+info_table
+{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th
+{
+    padding-top: 2%; 
+    height: 50px;
+    width: 20%;
+    text-align:center;
+}
+
+td
+{
+    /*Color Name: Battleship Gray*/
+    color: #848482; 
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 50px;
+    width: 33.3333333%;
+    text-align: center;
+    vertical-align: top;
+}
+
+header1, header2
+{
+
+}
+
+a.links{color: #848482;text-decoration:none;} 
+a.links1{color: #00ffed;text-decoration:none;}
+a.links:hover{color: #ff5500;text-decoration:none;}
+
+jpg
+{
+
+}
+
+/* Wrapper for page content to push down footer */
+wrap
+{
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+footer
+{
+    text-align: center;
+	height: 40px;
+	background-color: #848482;
+    margin-top: 100%;
+}
