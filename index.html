@@ -6,54 +6,122 @@
     <title>Austin Klein</title>
     <style type="text/css"></style>
     <link rel=stylesheet href="style.css" type="text/css" media=screen>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="jquery.stellar.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header1">
-            <table>
-                <tr>
-                    <th><a href="index.html" class="links">Home</a></th>
-                    <th><a href="about_me.html" class="links">About Me</a></th>
-                    <th>
-                        <a href="index.html">
-                            <img src="images/logo.png" width="121" height="74">
-                        </a>
-                    </th>
-                    <th><a href="code_samples.html" class="links">Code Samples</a></th>
-                    <th><a href="contact.html" class="links">Contact</a></th>
-                </tr>
-            </table>
-        </div>
+    <header id="header1">
+        <ul>
+            <li><a href="index.html" class="links">Home</a></li>
+            <li><a href="about_me.html" class="links">About Me</a></li>
+            <li>
+                <a href="index.html">
+                    <img src="images/logo.png" width="121" height="74">
+                </a>
+            </li>
+            <li><a href="code_samples.html" class="links">Code Samples</a></li>
+            <li><a href="contact.html" class="links">Contact</a></li>
+        </ul>
     </header>
-    <table class="info_table">
-        <tr>
-            <td>
-                <h3>Writing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis tempus cursus mentum.</p>
-            </td>
-
-            <td>
-                <h3>Development</h3>
-                <p>Sed adipiscing urna et neque euismod, et luctus eros vehicula. Vestibulum dapibus urna at mi porttitor condimentum.</p>
-            </td>
-
-            <td>
-                <h3>Newsletter</h3>
-                <p>Aliquam porttitor vel sapien id pharetra. Mauris id mauris eleifend, dignissim lacus id, tempus mauris.</p>
-            </td>
-        </tr>
-        <tr>
-            <td><p><a href="index.html" class="links">Read My Blog</a></p></td>
-            <td><p><a href="index.html" class="links">View My Themes</a></p></td>
-            <td><p><a href="index.html" class="links">Subscribe Via Email</a></p></td>
-        </tr>
-    </table>
     <div class="wrap">
+        <div id="section1">
+            <div class="content">
+                <h3 class="paragraph">Writing</h3>
+                <br />
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis tempus cursus mentum.</p>
+                <br />
+                <p class="paragraph"><a href="index.html" class="links">Read My Blog</a></p>
+            </div>
+            <div class="content">
+                <h3 class="paragraph">Development</h3>
+                <br />
+                <p class="paragraph">Sed adipiscing urna et neque euismod, et luctus eros vehicula. Vestibulum dapibus urna at mi porttitor condimentum.</p>
+                <br />
+                <p class="paragraph"><a href="index.html" class="links">View My Themes</a></p>
+            </div>
+            <div class="content">
+                <h3 class="paragraph">Newsletter</h3>
+                <br />
+                <p class="paragraph">Aliquam porttitor vel sapien id pharetra. Mauris id mauris eleifend, dignissim lacus id, tempus mauris, et luctus eros vehicula.</p>
+                <br />
+                <p class="paragraph"><a href="index.html" class="links">Subscribe Via Email</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div id="section1">
+            <img src="images/lambo.png" width="1000" height="274">
+        </div>
+    </div>
+    <div class="wrap">
+        <div id="section1">
+            <div class="content">
+                <h3 class="paragraph">Writing</h3>
+                <br />
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis tempus cursus mentum.</p>
+                <br />
+                <p class="paragraph"><a href="index.html" class="links">Read My Blog</a></p>
+            </div>
+            <div class="content">
+                <h3 class="paragraph">Development</h3>
+                <br />
+                <p class="paragraph">Sed adipiscing urna et neque euismod, et luctus eros vehicula. Vestibulum dapibus urna at mi porttitor condimentum.</p>
+                <br />
+                <p class="paragraph"><a href="index.html" class="links">View My Themes</a></p>
+            </div>
+            <div class="content">
+                <h3 class="paragraph">Newsletter</h3>
+                <br />
+                <p class="paragraph">Aliquam porttitor vel sapien id pharetra. Mauris id mauris eleifend, dignissim lacus id, tempus mauris, et luctus eros vehicula.</p>
+                <br />
+                <p class="paragraph"><a href="index.html" class="links">Subscribe Via Email</a></p>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--
+    <div data-stellar-ratio="5">
+        <div class="header1">
+            <img src="images/logo.png" width="121" height="74">
+            <script>
+                $(window).stellar({
+                // Refreshes parallax content on window load and resize
+                responsive: false,
+                scrollProperty: 'transform'
+                });
+            </script>
+        </div>
+    </div>
+    <div class="footer_wrap">
         <footer>
             <div class="header1">Austin Klein</div>
         </footer>
     </div>
-    <!--
     <script type="text/javascript">
         (function () {
             var a = document.body,
