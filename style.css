@@ -151,12 +151,22 @@ li
     background-repeat: no-repeat;
 }
 
+.image_text:hover
+{
+    background-image: url('images/skiing(hover).jpg');
+}
+
 .image_text1
 {
     height: 100%;
     text-align: center;
     background-image: url('images/rowing.jpg');
     background-repeat: no-repeat;
+}
+
+.image_text1:hover
+{
+    background-image: url('images/rowing(hover).jpg');
 }
 
 a.links{color: #848482;text-decoration:none;} 
