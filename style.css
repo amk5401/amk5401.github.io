@@ -3,7 +3,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     background-color: #000000;
-    background-image: url('images/background1.png');
+    background-image: url('images/background.png');
     background-repeat: repeat-y;
     background-attachment: fixed;
     margin-top: 0%;
@@ -13,7 +13,7 @@
 @media only screen and (min-width: 1850px) {
     .middle_wrap {
         //background-image: url('images/linen.jpg');
-        margin-left: .5%;
+        margin-left: .05%;
         float: left;
         width: 60%;
     }
@@ -22,7 +22,7 @@
 @media only screen and (max-width: 1850px) {
     .middle_wrap {
         //background-image: url('images/linen.jpg');
-        margin-left: .5%;
+        margin-left: .05%;
         float: left;
         width: 1100px;
     }
@@ -38,6 +38,14 @@
     //margin-left: 100px;
     float: right;
     width: 35%;
+}
+
+.wrap
+{
+    //font-size: 0px;
+    background-image: url('images/linen.jpg');
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 /*
 .rightside_section
@@ -63,6 +71,12 @@
     width: 100%;
 }
 
+#header2
+{
+    width: 100%;
+    text-align:center;
+}
+
 ul
 {
     padding-left: 0%;
@@ -81,25 +95,25 @@ li
     text-align:center;
 }
 
-.contentwrap
+#list_elements
 {
-    margin-left: 100px;
-    width: 1000px;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.9%;
+    text-align:center;
+}
+
+.content_wrap
+{
+    margin-top: 167px;
 }
 
 #section1
 {
     background-image: url('images/linen.jpg');
     background-attachment: fixed;
-    //text-align: center;
     color: #848482;
     //text-align: justify;
-}
-
-#image_section
-{
-    background-image: url('images/linen.jpg');
-    background-attachment: fixed;
 }
 
 .content
@@ -125,12 +139,23 @@ li
 }
 
 a.links{color: #848482;text-decoration:none;} 
-a.links1{color: #00ffed;text-decoration:none;}
-a.links:hover{color: #ff5500;text-decoration:none;}
+//a.links1{color: #00ffed;text-decoration:none;}
+a.links:hover{color: #d95500;text-decoration:none;}
+
+.paragraph_about_me
+{
+    text-align: justify;
+    line-height: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #jpg
 {   
+    height: 100%;
     width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* Wrapper for page content to push down footer */
@@ -151,4 +176,82 @@ footer
 	height: 40px;
 	background-color: #848482;
     margin-top: 100%;
+}
+
+/* "About Me" tabbed View JQuery Changes */
+.ui-widget-content
+{
+    border: none;
+    background: none;
+    color: #848482;
+}
+
+.ui-widget
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.ui-widget-header
+{
+    border: none;
+	background: none;
+	color: #848482;
+	font-weight: bold;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0em 0em;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active 
+{
+    border: none;
+	background: none;
+	font-weight: normal;
+	color: #848482;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default
+{
+	border: 1px solid #000000;
+	background: #e6e6e6 url(images/ui-bg_glass_75_1x400.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #848482;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited
+{
+	color: #848482;
+	text-decoration: none;
+}
+
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited
+{
+	color: #d55500;
+	text-decoration: none;
+}
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited
+{
+    border: none;
+    color: #848482;
+	text-decoration: none;
 }

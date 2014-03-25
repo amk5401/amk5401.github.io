@@ -4,13 +4,21 @@
     <title>Austin Klein</title>
     <link rel="icon" href="images/circle_favicon.ico" type="image/x-icon">
     <style type="text/css"></style>
-    <link rel=stylesheet href="style.css" type="text/css" media=screen>
     <script type="text/javascript" src="jquery.js"></script>
     <script src="jquery.stellar.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel=stylesheet href="style.css" type="text/css" media=screen>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
 </head>
 <body>
     <div class="god_wrap">
-        <div class="middle_wrap">
+        <div class="middle_wrap" id="top">
             <header id="header1">
                 <ul>
                     <li><a href="index.html" class="links">Home</a></li>
@@ -24,11 +32,74 @@
                     <li><a href="contact.html" class="links">Contact</a></li>
                 </ul>
             </header>
+            <div class="content_wrap">
+                <div id="section1">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#CODING">Coding</a></li>
+                            <li><a href="#SKIING">Skiing</a></li>
+                            <li><a href="#ROWING">Rowing</a></li>
+                        </ul>
+                        <div id="CODING">
+                            <h3 class="paragraph">Coding</h3>
+                            <p class="paragraph_about_me">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo sit amet volutpat rhoncus. Sed et mi lobortis, accumsan elit ac, tempor dui. Phasellus non metus congue, tristique tortor aliquam, porttitor nulla. Suspendisse dictum arcu sit amet libero aliquet sodales sed pharetra arcu. Sed consectetur, mi quis tempus elementum, massa velit ultricies nunc, ut molestie erat turpis ut nibh. Morbi purus sem, adipiscing et diam ac, laoreet tristique massa. Pellentesque iaculis leo et leo faucibus, quis faucibus turpis ornare. Proin nec sem non libero dictum mollis eget vel est. Aliquam vulputate quis enim sit amet rhoncus. Mauris in tellus auctor felis facilisis luctus.
+                            </p>
+                            <br />
+                            <p class="paragraph_about_me">
+                                Nunc euismod congue velit a pellentesque. Nulla sodales consequat volutpat. Aliquam feugiat augue ac sem facilisis eleifend. Vestibulum a velit sit amet massa laoreet egestas. Phasellus pretium mattis auctor. Quisque aliquam congue massa sit amet dapibus. Phasellus mollis porttitor enim, ut euismod velit imperdiet sodales. Vivamus placerat iaculis magna vitae sollicitudin. Vivamus aliquam nisi feugiat lacus tempus, nec dictum enim porta.
+                            </p>
+                            <br />
+                            <p class="paragraph_about_me">
+                                Aliquam erat sem, adipiscing et neque non, suscipit mattis purus. Quisque at sollicitudin lectus. Suspendisse nec justo scelerisque, porttitor sapien et, iaculis odio. Maecenas ut accumsan mauris. Sed a auctor libero. Quisque iaculis, ipsum a commodo rhoncus, neque lorem fermentum sapien, et congue massa lacus lobortis urna. Sed leo nisl, convallis id tincidunt et, dictum eu nulla. In ut sapien fringilla enim pellentesque pharetra. Duis mattis tincidunt purus quis feugiat. Vestibulum et viverra libero. Nulla cursus leo vel urna placerat facilisis.
+                            </p>
+                            <div id="header2">
+                                <h4><a href="#top" class="links">Back to top</a></h4>
+                                <br />
+                            </div>
+                        </div>
+                        <div id="SKIING">
+                            <h3 class="paragraph">Skiing</h3>
+                            <p class="paragraph_about_me">
+                                If I had to summarize my lifetime experience of skiing and my few seasons as a ski instructor, I would tell this single story. This story took place during a five hour lesson with a group of about six, seven year-olds who were skiing at an intermediate level. They could easily ski green circle trails and some blue square trails, but black diamond trails were what we were working towards. It was the last run before lunch and we had plenty of time to ski a blue square trail as well as take some time for a lesson while going down. We started skiing and were about halfway down the trail when one of the girls stopped. She had skied harder trails earlier that day, but for whatever reason this trail scared her. She started to cry so I skied up to where she was in the line.
+                            </p>
+                            <br />
+                            <p class="paragraph_about_me">
+                                I tried to raise her confidence by reminding her that she had skied harder trails without a problem. She stopped crying but said she was not going to continue. I then asked her if she would like to ski it much slower with me right at her side, to which she replied no. I told her she could hold my hands, and that I would ski down the rest of the trail backwards while holding her hands. This trail worried her though, and she wouldn’t budge. I told one of the older kids, who was at a slightly higher skiing level, to lead the other kids to the orange sign where the slope was flatter and play I Spy. I then took off my skis and told the girl that we were lucky because we were going to sled down this hill. I helped her take off her skis, and with one hand I held our skis, and with the other, I held her hand. We then pushed off, and began sliding down the hill on our bottoms. We made a game trying to turn ourselves and aim for the orange sign where the other kids were waiting. By the time the girl and I got to the others, both of our faces had huge smiles. No matter the number of times I had skied since I was in third grade this was a whole new perspective as I had never slid down a blue square on my bottom.
+                            </p>
+                            <br />
+                            <p class="paragraph_about_me">
+                                I learned thousands of things during my time as a ski instructor. I learned that fairness with the kids earns respect and trust with the children so they treat me as an instructor and not as someone to disregard. While the kids rightfully have fears of their own, I've learned that a strong confident voice will get them to listen. However most importantly I learned that to understand a situation completely I need to stop and look at the circumstance from other points of view. Just because one individual says that the best way of getting down the mountain would be on two feet does not mean that it is the only way. For some, a better way would be on your bottom.
+                            </p>
+                            <div id="header2">
+                                <h4><a href="#top" class="links">Back to top</a></h4>
+                                <br />
+                            </div>
+                        </div>
+                        <div id="ROWING">
+                            <h3 class="paragraph">Rowing</h3>
+                            <p class="paragraph_about_me">
+                                Morbi fermentum gravida lectus, et porttitor ipsum elementum vitae. Etiam rutrum felis eu ante tristique eleifend. Nam bibendum posuere massa. Nunc vitae mauris ut sem malesuada lacinia vel id risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum eleifend posuere. Praesent aliquam vulputate massa sit amet imperdiet. Morbi vehicula gravida dignissim. Nunc tincidunt volutpat lacus eget varius. Integer iaculis, lectus in cursus placerat, nisl elit lobortis lorem, quis tincidunt dolor dui nec nulla. Suspendisse nibh diam, facilisis vel pretium sit amet, eleifend id felis. Curabitur ut porttitor elit.
+                            </p>
+                            <br />
+                            <p class="paragraph_about_me">
+                                Etiam ultricies fermentum urna quis congue. Cras diam magna, egestas et tortor id, luctus vulputate tellus. Aenean condimentum accumsan commodo. Donec imperdiet libero at augue dapibus malesuada et consectetur turpis. Nullam vestibulum sapien velit, nec varius diam lobortis non. Phasellus vel purus sit amet elit congue sagittis. Vivamus quis porta turpis. Suspendisse potenti. Cras sit amet metus est. Sed vulputate iaculis nibh ut porttitor.
+                            </p>
+                            <div id="header2">
+                                <h4><a href="#top" class="links">Back to top</a></h4>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
             <div class="wrap">
                 <footer>
                     <div class="header1">Austin Klein</div>
                 </footer>
             </div>
+            -->
         </div>
     </div>
 </body>
