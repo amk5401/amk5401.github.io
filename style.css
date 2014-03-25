@@ -42,7 +42,8 @@
 
 .wrap
 {
-    //font-size: 0px;
+    color: #ffffff;
+    height: 350px;
     background-image: url('images/linen.jpg');
     padding-bottom: 0;
     margin-bottom: 0;
@@ -105,6 +106,9 @@ li
 
 .content_wrap
 {
+    color: #ffffff;
+    height: 350px;
+    background-image: url('images/linen.jpg');
     margin-top: 167px;
 }
 
@@ -118,7 +122,8 @@ li
 
 .content
 {
-    vertical-align: top;
+    padding-top: 3%;
+    height: 100%;
     display: inline-block;
     width: 32.9%;
 }
@@ -132,15 +137,32 @@ li
 
 .paragraph
 {
-    vertical-align: top;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 
+.image_text
+{
+    height: 100%;
+    text-align: center;
+    border-top: 10px solid #d95500;
+    background-image: url('images/skiing.jpg');
+    background-repeat: no-repeat;
+}
+
+.image_text1
+{
+    height: 100%;
+    text-align: center;
+    background-image: url('images/rowing.jpg');
+    background-repeat: no-repeat;
+}
+
 a.links{color: #848482;text-decoration:none;} 
-//a.links1{color: #00ffed;text-decoration:none;}
+a.links1{color: #ffffff;text-decoration:none;}
 a.links:hover{color: #d95500;text-decoration:none;}
+a.links1:hover{color: #ff6500;text-decoration:none;}
 
 .paragraph_about_me
 {
@@ -152,10 +174,10 @@ a.links:hover{color: #d95500;text-decoration:none;}
 
 #jpg
 {   
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
     height: 100%;
     width: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 /* Wrapper for page content to push down footer */
