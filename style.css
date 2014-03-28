@@ -42,6 +42,7 @@
     color: #ffffff;
     height: 350px;
     background-image: url('images/linen.jpg');
+    background-attachment: fixed;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -93,6 +94,7 @@
     width: 100%;
     text-align:center;
     background-image: url('images/linen.jpg');
+    background-attachment: fixed;
 }
 
 h4
