@@ -45,6 +45,24 @@
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
+.initial_wrap
+{
+    color: #ffffff;
+    height: 350px;
+    background-image: url('images/linen.jpg');
+    margin-top: 167px;
+}
+
+.code_sample_wrap
+{
+    color: #ffffff;
+    height: 744px;
+    background-image: url('images/linen.jpg');
+    margin-top: 167px;
+    margin-bottom: 100px;
+}
+
 /*
 .rightside_section
 {
@@ -74,6 +92,13 @@
 {
     width: 100%;
     text-align:center;
+    background-image: url('images/linen.jpg');
+}
+
+h4
+{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 ul
@@ -100,14 +125,6 @@ li
     text-align:center;
 }
 
-.content_wrap
-{
-    color: #ffffff;
-    height: 350px;
-    background-image: url('images/linen.jpg');
-    margin-top: 167px;
-}
-
 #section1
 {
     background-image: url('images/linen.jpg');
@@ -117,10 +134,20 @@ li
 
 .content
 {
-    padding-top: 3%;
+    vertical-align: top;
+    padding-top: 2%;
     height: 100%;
     display: inline-block;
     width: 32.9%;
+}
+
+.content_extended
+{
+    margin-top: 1.17em;
+    margin-bottom: 1.17em;
+    padding-top: 2%;
+    display: inline-block;
+    width: 66.5%;
 }
 
 .contact_content
@@ -128,6 +155,15 @@ li
     vertical-align: top;
     display: inline-block;
     width: 24.5%;
+}
+
+.paragraph_code_samples
+{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .paragraph
@@ -176,11 +212,19 @@ a.links1:hover{color: #ff6500;text-decoration:none;}
     margin-right: 5%;
 }
 
+.title_about_me
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 #jpg
 {   
+    /*
     opacity:0.4;
     filter:alpha(opacity=40); /* For IE8 and earlier */
-    height: 100%;
+    border: 1px solid #d95500;
     width: 100%;
 }
 
