@@ -21,6 +21,7 @@
 {
     float: left;
     width: 1100px;
+    height: 100%;
 }
 
 .rightside_wrap
@@ -225,8 +226,9 @@ a.links1:hover{color: #ff6500;text-decoration:none;}
     /*
     opacity:0.4;
     filter:alpha(opacity=40); /* For IE8 and earlier */
-    border: 1px solid #d95500;
-    width: 100%;
+    border: 2px solid #d95500;
+    width: calc(100% - 2px);
+    margin-bottom: 5px;
 }
 
 /* Wrapper to push down footer */
