@@ -107,23 +107,6 @@ hr { margin: 40px 0px; border-color: #434242; opacity: 0.2; filter:alpha(opacity
 /*---------------*/
 /***** EFFECT *****/
 /*---------------*/
-/*
-figure.effect {
-	color: #FFF;
-    background: #4d6684;
-}
-
-figure.effect img {
-	width: 100%;
-    max-height: 250px;
-}
-
-figure.effect:hover img {
-	opacity: 0.2;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-*/
 
 .photo-grid img {
 	display: block;
@@ -212,7 +195,4 @@ figure.effect:hover img {
     .navbar-nav {
         float: none;
     }
-}
-
-@media (max-width: 767px) {
 }
