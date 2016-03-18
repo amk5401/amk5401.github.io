@@ -2,7 +2,7 @@
   "profile": {
     "name": "Austin Klein",
     "birth_date": "1994-09-03",
-    "biography": "I am currently a Rochester Institute of Technology undergraduate student working on my BS in Software Engineering. I expect to graduate after the spring of 2017. I have completed two co-op blocks where I worked full 40 hour work weeks developing and testing software for a company. I am now finishing my third co-op, and by the time I graduate I will have nearly a full year of experience in the field. While I am a full stack developer, lately I have been working mostly on the front-end.",
+    "biography": My name is Austin Klein. I am currently an undergraduate student at the Rochester Institute of Technology. I expect to graduate in the spring of 2017 with a BS in Software Engineering. In addition to completing my coursework, I have completed three co-op blocks where I worked full time (40 hour work weeks) developing and testing software. While I am a full stack developer with a year of work experience in the field, lately I have been working mostly on the front-end.",
     "location": "Rochester, NY"
   },
   "contact_details": {
@@ -17,7 +17,7 @@
       "specification": "Software Engineering Co-op",
       "description": "During my second co-op I worked on a number of software projects, at times from conception to completion. We were in charge of testing our own deliverables in order to assure they fit the requirements. I was also able to work with a number of different technologies many of which were new to me.",
       "start_date": "Sep 2015",
-      "end_date": "current",
+      "end_date": "Jan 2016",
       "link": "http://www.eagledream.com/"
     },
     {
@@ -31,7 +31,7 @@
     {
       "title": "Crellin Park",
       "specification": "Head Camp Counselor",
-      "description": "While working here I would arrange a safe and fun environment for kids to play and learn through games and programs. Once I became a head counselor I oversaw junior counselor's activities to ensure a proper work ethic. We provided diverse activities from kickball to arts and crafts to swimming, to produce a well-rounded experience.",
+      "description": "I worked for 4 years as a camp counselor in Upstate NY for the Town of Chatham, Recreation Department. As a counselor, I would arrange a safe and fun environment for kids to play and learn through games and programs. In 2012, I became a head counselor. In addition to managing a group of children, I also oversaw junior counselor's activities to ensure proper work ethic. It was the goal of our Recreation Department to provide diverse activities for the children to produce a well-rounded experience.",
       "start_date": "Summers of 2009",
       "end_date": "2012",
       "link": "http://crellinpark.org/"
@@ -39,13 +39,13 @@
     {
       "title": "Jiminy Peak Mountain Resort",
       "specification": "Ski Instructor",
-      "description": "I got my first job as soon as I turned 14 and was legally allowed to work. Here I learned how to communicate effectively with individuals, whether three years-old or adults. I taught children from the ages of three to twelve, and skill levels from beginner to expert, during a five hour lesson on how to ski.",
+      "description": "I got my first job as soon as I turned 14 and was legally allowed to work. At Jiminy Peak, I learned how to communicate effectively with individuals, whether the individual was my supervisor, a parent, or a three year-old. As an instructor, I taught five hour ski lessons to children aged three through twelve. Their skill levels varied from beginner to expert.",
       "start_date": "Winters of 2008",
       "end_date": "2011",
       "link": "http://www.jiminypeak.com/"
     }
   ],
-  "educations": [
+  "education": [
     {
       "title": "Rochester Institute of Technology",
       "specification": "Bachelor of Science - Software Engineering",
@@ -104,7 +104,7 @@
       "type":  "Languages"
     },
     {
-      "title": "Bootstrap, AngularJS",
+      "title": "Bootstrap, AngularJS, Django",
       "level": 5,
       "type":  "Frameworks"
     },
@@ -128,13 +128,6 @@
       "technologies": "Bootstrap, Python, Django",
       "image": "ToolShare_Home_Page.png",
       "link": "https://github.com/jcdesimp/SEToolShare"
-    },
-    {
-      "title": "Chat Project",
-      "description": "I updated most of the pages facing the public while on my second co-op at EagleDream. The main functionality was completed by another employee. This site is also using AngularJS and Bootstrap.",
-      "technologies": "AngularJS, Bootstrap",
-      "image": "ChatPlat.png",
-      "link": "http://austin-klein.com/assets/images/Chat_Project.png"
     },
     {
       "title": "Skyscraper",
