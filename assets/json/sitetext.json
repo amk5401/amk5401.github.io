@@ -130,6 +130,13 @@
       "link": "https://github.com/jcdesimp/SEToolShare"
     },
     {
+      "title": "Chat Project",
+      "description": "I updated most of the pages facing the public while on my second co-op at EagleDream. The main functionality was completed by another employee. This site is also using AngularJS and Bootstrap.",
+      "technologies": "AngularJS, Bootstrap",
+      "image": "ChatPlat.png",
+      "link": "http://austin-klein.com/assets/images/Chat_Project.png"
+    },
+    {
       "title": "Skyscraper",
       "description": "This is a fun little backtracking solver for the Skyscraper puzzle done in one of my first semesters at RIT. It was written in Python.",
       "technologies": "Python",
