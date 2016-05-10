@@ -137,6 +137,13 @@
       "link": "http://austin-klein.com/assets/images/Chat_Project.png"
     },
     {
+      "title": "Community Care Hub",
+      "description": "This was a simple group project done for a class while attending RIT. The credentials to log in are - Username: Caregiver and Password: abc123.",
+      "technologies": "AngularJS, Bootstrap",
+      "image": "CCH.png",
+      "link": "https://community-care-hub.herokuapp.com/"
+    },
+    {
       "title": "Skyscraper",
       "description": "This is a fun little backtracking solver for the Skyscraper puzzle done in one of my first semesters at RIT. It was written in Python.",
       "technologies": "Python",
