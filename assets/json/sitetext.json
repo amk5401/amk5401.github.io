@@ -137,6 +137,13 @@
       "link": "http://austin-klein.com/assets/images/Chat_Project.png"
     },
     {
+      "title": "FCCR",
+      "description": "I created this site for a club that I helped to start. It was meant to be reminiscent of other bootstrap themes however was done from scratch. This site is likely to change and update as the club grows and changes.",
+      "technologies": "HTML, CSS, Bootstrap",
+      "image": "FCCR.png",
+      "link": "http://fccr.herokuapp.com/"
+    },
+    {
       "title": "Community Care Hub",
       "description": "This was a simple group project done for a class while attending RIT. The credentials to log in are - Username: Caregiver and Password: abc123.",
       "technologies": "AngularJS, Bootstrap",
