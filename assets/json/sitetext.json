@@ -15,7 +15,6 @@
     {
       "title": "Vanguard",
       "specification": "Application Engineer",
-      "description": "",
       "start_date": "Jun 2017",
       "end_date": "Current",
       "link": "https://investor.vanguard.com/corporate-portal/"
@@ -59,7 +58,7 @@
       "specification": "Bachelor of Science - Software Engineering",
       "description": "This university offered a fantastic co-op program which helped me get over a year of full time experience at a few different companies before I even graduated. While attending RIT I was part of the Varsity Crew for a few years, took classes in a range of subjects, and was able to figure out what I wanted to get out of a full-time job.",
       "start_date": "Sep 2012",
-      "end_date": "May 2017 (Expected)",
+      "end_date": "May 2017",
       "link": "https://www.rit.edu/"
     },
     {
@@ -105,8 +104,8 @@
       "title": "Smart Mirror",
       "description": "A raspberry pi hosted local website that is displayed on a monitor behind one-way glass. It auto updates weather, traffic, news, and a daily comic from different free API's.",
       "technologies": "Raspbian, Javascript, CSS, HTML",
-      "image": "SmartMirror.png",
-      "link": "http://austin-klein.com/assets/images/SmartMirror_Project.png"
+      "image": "SmartMirror_1.jpg",
+      "link": "http://austin-klein.com/assets/images/SmartMirror_2.jpg"
     },
     {
       "title": "Chat Project",
@@ -119,8 +118,8 @@
       "title": "Skoolie Build",
       "description": "This is my 40 foot School Bus that I am renovating into a Motorhome. We are learning each skill as we get there and are currently starting to insulate and frame the interior.",
       "technologies": "Woodworking, Plumbing, Electrical, Youtube??",
-      "image": "SkoolieBuild.png",
-      "link": "http://austin-klein.com/assets/images/Skoolie_Project.png"
+      "image": "Skoolie_1.jpg",
+      "link": "http://austin-klein.com/assets/images/Skoolie_2.jpg"
     }
   ]
 }
