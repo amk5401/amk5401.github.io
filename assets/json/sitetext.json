@@ -2,7 +2,7 @@
   "profile": {
     "name": "Austin Klein",
     "birth_date": "1994-09-03",
-    "biography": "My name is Austin Klein. I am a Software Engineer who has been working as a full stack developer for the last 5 years. In addition to coding, I enjoy many outdoor activities such as rowing, skiing, and biking.",
+    "biography": "My name is Austin Klein. I am a Software Engineer who has been working as a full stack developer for the last 5 years. I have contributed to business critical applications and high value division wide initiatives. I have organized multiple modernization efforts on my dev team, and taught teammates new skills when they were new to a technology. In my free time I also enjoy building with my hands, along with many outdoor activities such as rowing, skiing, and biking.",
     "location": "King of Prussia, PA"
   },
   "contact_details": {
@@ -15,6 +15,7 @@
     {
       "title": "Vanguard",
       "specification": "Application Engineer",
+      "description": "During this time I held three development roles. I started as a Dev I out of college and was then promoted twice and given the Distinguished merit rating twice, both within 5 years. For the majority of this time I was a full stack developer and would work on the UI, Service, Batch jobs, along with database queries.",
       "start_date": "Jun 2017",
       "end_date": "Current",
       "link": "https://investor.vanguard.com/corporate-portal/"
@@ -84,7 +85,7 @@
     {
       "title": "ECS, S3, RDS, DMS, Athena, Lambda",
       "level": 5,
-      "type":  "AWS"
+      "type":  "AWS Cloud"
     },
     {
       "title": "PSQL, Oracle, Selenium, HTML, CSS",
@@ -105,7 +106,7 @@
       "description": "A raspberry pi hosted local website that is displayed on a monitor behind one-way glass. It auto updates weather, traffic, news, and a daily comic from different free API's.",
       "technologies": "Raspbian, Javascript, CSS, HTML",
       "image": "SmartMirror_1.jpg",
-      "link": "http://austin-klein.com/assets/images/SmartMirror_2.jpg"
+      "link": "http://austin-klein.com/assets/images/SmartMirror_2.png"
     },
     {
       "title": "Chat Project",
@@ -119,7 +120,7 @@
       "description": "This is my 40 foot School Bus that I am renovating into a Motorhome. We are learning each skill as we get there and are currently starting to insulate and frame the interior.",
       "technologies": "Woodworking, Plumbing, Electrical, Youtube??",
       "image": "Skoolie_1.jpg",
-      "link": "http://austin-klein.com/assets/images/Skoolie_2.jpg"
+      "link": "http://austin-klein.com/assets/images/Skoolie_2.png"
     }
   ]
 }
