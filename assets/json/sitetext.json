@@ -2,23 +2,30 @@
   "profile": {
     "name": "Austin Klein",
     "birth_date": "1994-09-03",
-    "biography": "My name is Austin Klein. I am currently an undergraduate student at the Rochester Institute of Technology. I expect to graduate in the spring of 2017 with a BS in Software Engineering. In addition to completing my coursework, I have completed three co-op blocks where I worked full time (40 hour work weeks) developing and testing software. While I am a full stack developer with a year of work experience in the field, lately I have been working mostly on the front-end.",
-    "location": "Rochester, NY"
+    "biography": "My name is Austin Klein. I am a Software Engineer who has been working as a full stack developer for the last 5 years. In addition to coding, I enjoy many outdoor activities such as rowing, skiing, and biking.",
+    "location": "King of Prussia, PA"
   },
   "contact_details": {
-    "email": "amk5401@rit.edu",
+    "email": "austin.klein.se@gmail.com",
     "linkedin": "https://www.linkedin.com/in/austin-klein-82429481",
     "facebook": "https://www.facebook.com/austin.klein.14/",
     "github": "https://github.com/amk5401/"
   },
   "careers": [
     {
+      "title": "Vanguard",
+      "specification": "Application Engineer",
+      "start_date": "Jun 2017",
+      "end_date": "Current",
+      "link": "https://investor.vanguard.com/corporate-portal/"
+    },
+    {
       "title": "EagleDream Technologies",
       "specification": "Software Engineering Co-op",
       "description": "During my second co-op I worked on a number of software projects, at times from conception to completion. We were in charge of testing our own deliverables in order to assure they fit the requirements. I was also able to work with a number of different technologies many of which were new to me.",
       "start_date": "Sep 2015",
       "end_date": "Jan 2016",
-      "link": "http://www.eagledream.com/"
+      "link": "https://www.pwc.com/us/en/about-us/newsroom/press-releases/pwc-acquires-eagledream-technologies.html"
     },
     {
       "title": "Soleo Communications",
@@ -26,7 +33,7 @@
       "description": "My first co-op while attending RIT allowed me to own the entire quality assurance process and quality of the product. I developed Selenium test scripts and automated testing plans as well as participated in design reviews and planning meetings. This gave me a chance to learn what the 'real world' of Software Engineering was like and cement my interest in the field.",
       "start_date": "June 2014",
       "end_date": "Dec 2014",
-      "link": "http://www.soleo.com/"
+      "link": "https://soleo.com/"
     },
     {
       "title": "Crellin Park",
@@ -42,7 +49,7 @@
       "description": "I got my first job as soon as I turned 14 and was legally allowed to work. At Jiminy Peak, I learned how to communicate effectively with individuals, whether the individual was my supervisor, a parent, or a three year-old. As an instructor, I taught five hour ski lessons to children aged three through twelve. Their skill levels varied from beginner to expert.",
       "start_date": "Winters of 2008",
       "end_date": "2011",
-      "link": "http://www.jiminypeak.com/"
+      "link": "https://www.jiminypeak.com/"
     }
   ],
   "educations": [
@@ -51,8 +58,8 @@
       "specification": "Bachelor of Science - Software Engineering",
       "description": "This university offered a fantastic co-op program which helped me get over a year of full time experience at a few different companies before I even graduated. While attending RIT I was part of the Varsity Crew for a few years, took classes in a range of subjects, and was able to figure out what I wanted to get out of a full-time job.",
       "start_date": "Sep 2012",
-      "end_date": "May 2017 (Expected)",
-      "link": "http://www.rit.edu/"
+      "end_date": "May 2017",
+      "link": "https://www.rit.edu/"
     },
     {
       "title": "Chatham Highschool",
@@ -60,56 +67,27 @@
       "description": "During highschool I was an active member of the Varisty Tennis and Varisty Cross Country teams. I also enjoyed music and played multiple instruments while being a part of both the concert and marching bands. I took two computer science classes which gave me my first taste of the field.",
       "start_date": "Sep 2008",
       "end_date": "Jun 2012",
-      "link": "http://www.chathamcentralschools.com/"
-    }
-  ],
-  "classes": [
-    {
-      "title": "Computer Science 1,2,3",
-      "level": 5
-    },
-    {
-      "title": "Professional Communication",
-      "level": 5
-    },
-    {
-      "title": "Engineering of Software Subsystems",
-      "level": 5
-    },
-    {
-      "title": "Engineering Fundamentals of Computer Systems",
-      "level": 5
-    },
-    {
-      "title": "Calculus 1,2,3",
-      "level": 5
-    },
-    {
-      "title": "University Physics 1,2",
-      "level": 5
-    },
-    {
-      "title": "SW Process and Project Management",
-      "level": 5
-    },
-    {
-      "title": "Engineering Secure Software",
-      "level": 5
+      "link": "https://www.chathamcentralschools.com/"
     }
   ],
   "technical_skills": [
     {
-      "title": "Java, Javascript, HTML, CSS, C#, Python",
+      "title": "Java, Javascript, Typescript, Python",
       "level": 5,
       "type":  "Languages"
     },
     {
-      "title": "Bootstrap, AngularJS, Django",
+      "title": "Spring Boot, Angular 2+, AngularJS",
       "level": 5,
       "type":  "Frameworks"
     },
     {
-      "title": "Eclipse IDE, Visual Studio, Git",
+      "title": "ECS, S3, RDS, DMS, Athena, Lambda",
+      "level": 5,
+      "type":  "AWS"
+    },
+    {
+      "title": "PSQL, Oracle, Selenium, HTML, CSS",
       "level": 5,
       "type":  "Other"
     }
@@ -123,11 +101,11 @@
       "link": "https://github.com/amk5401/amk5401.github.io"
     },
     {
-      "title": "Tool Share",
-      "description": "A community tool sharing website built using Python, Bootstrap, and the Django web framework. Completed for a class while attending RIT.",
-      "technologies": "Bootstrap, Python, Django",
-      "image": "ToolShare_Home_Page.png",
-      "link": "https://github.com/jcdesimp/SEToolShare"
+      "title": "Smart Mirror",
+      "description": "A raspberry pi hosted local website that is displayed on a monitor behind one-way glass. It auto updates weather, traffic, news, and a daily comic from different free API's.",
+      "technologies": "Raspbian, Javascript, CSS, HTML",
+      "image": "SmartMirror_1.jpg",
+      "link": "http://austin-klein.com/assets/images/SmartMirror_2.jpg"
     },
     {
       "title": "Chat Project",
@@ -137,25 +115,11 @@
       "link": "http://austin-klein.com/assets/images/Chat_Project.png"
     },
     {
-      "title": "FCCR",
-      "description": "I created this site for a club that I helped to start. It was meant to be reminiscent of other bootstrap themes however was done from scratch. This site is likely to change and update as the club grows and changes.",
-      "technologies": "HTML, CSS, Bootstrap",
-      "image": "FCCR.png",
-      "link": "http://fccr.herokuapp.com/"
-    },
-    {
-      "title": "Community Care Hub",
-      "description": "This was a simple group project done for a class while attending RIT. The credentials to log in are - Username: Caregiver and Password: abc123.",
-      "technologies": "AngularJS, Bootstrap",
-      "image": "CCH.png",
-      "link": "https://community-care-hub.herokuapp.com/"
-    },
-    {
-      "title": "Skyscraper",
-      "description": "This is a fun little backtracking solver for the Skyscraper puzzle done in one of my first semesters at RIT. It was written in Python.",
-      "technologies": "Python",
-      "image": "Skyscraper_Output.png",
-      "link": "http://austin-klein.com/assets/images/Skyscraper_Code.png"
+      "title": "Skoolie Build",
+      "description": "This is my 40 foot School Bus that I am renovating into a Motorhome. We are learning each skill as we get there and are currently starting to insulate and frame the interior.",
+      "technologies": "Woodworking, Plumbing, Electrical, Youtube??",
+      "image": "Skoolie_1.jpg",
+      "link": "http://austin-klein.com/assets/images/Skoolie_2.jpg"
     }
   ]
 }
