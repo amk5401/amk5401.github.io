@@ -14,7 +14,7 @@
     });
 
     function getData() {
-        $http.get('http://austin-klein.com/assets/json/sitetext.json')
+        $http.get('https://austin-klein.com/assets/json/sitetext.json')
                 .success(function (result) {
                     $scope.profile = result.profile;
                     $scope.careers = result.careers;
